@@ -1,2 +1,2 @@
-reboot
+halt --reboot
 sleep 60
