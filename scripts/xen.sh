@@ -4,7 +4,7 @@ set -ex
 
 HOST=$(uname -n)
 case $HOST in
-     jessie-xen ) XENPKG=xen-hypervisor-4.4-arm64  ;;
+     jessie-xen ) XENPKG=xen-hypervisor-4.4-amd64  ;;
      wheezy-xen ) XENPKG=xen-hypervisor-4.1-amd64 ;;
      default ) XENPKG=xen-hypervisor-4.4-amd64 ;;
 esac
