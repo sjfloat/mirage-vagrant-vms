@@ -25,7 +25,7 @@
                 " auto <wait>",
                 " locale=en_US <wait>",
                 " kbd-chooser/method=us <wait>",
-                " netcfg/get_hostname=wheezy-xen<wait> ",
+                " netcfg/get_hostname=jessie-xen<wait> ",
                 " netcfg/get_domain=local<wait> ",
                 " fb=false <wait>",
                 " debconf/frontend=noninteractive <wait>",
@@ -57,7 +57,7 @@
                 "virtualbox-iso": {
                     "scripts": [
                         "scripts/base.sh",
-                        "scripts/base-debian.sh",
+                        "scripts/base-jessie.sh",
                         "scripts/vagrant.sh",
                         "scripts/virtualbox.sh"
                     ]
